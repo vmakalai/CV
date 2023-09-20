@@ -1,0 +1,82 @@
+/* css styles CV:lle */
+/* Resetoidaan mahdolliset oletusmarginaalit ja paddingit */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Taustaväri sivulle */
+body {
+  background-color: #fff; /* Valkoinen tausta */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column; /* Sisältö on pystysuunnassa */
+  align-items: center; /* Keskitetään vaakasuunnassa */
+}
+
+/* ylatunnus tyyli */
+.ylatunnus {
+  background-color: #333; /* Tumma vihreä tausta */
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Nimen tyyli */
+h1 {
+  color: #fff; /* Valkoinen teksti */
+  margin-bottom: 20px;
+}
+
+/* Sisällön tyyli */
+.sisalto {
+  display: flex;
+  flex-direction: row; /* Elementit ovat rinnakkain */
+  justify-content: space-between; /* Jakaa tilan vasemman ja oikean sarakkeen välillä */
+  width: 80%; /* 80% sivun leveydestä */
+  margin: 20px 0; /* Lisätään välistystä ylhäältä ja alhaalta */
+}
+
+/* Vasemman sarakkeen tyyli */
+.vasen-reuna {
+  background-color: #ddd; /* Harmaa tausta vasemmassa sarakkeessa */
+  padding: 20px;
+  color: #333; /* Tummanharmaa teksti */
+  width: 40%; /* Leveys vasemmassa sarakkeessa */
+}
+
+/* Oikean sarakkeen tyyli */
+.oikea-reuna {
+  padding: 20px;
+  width: 55%; /* Leveys oikeassa sarakkeessa */
+}
+
+/* Otsikot */
+h2 {
+  background-color: #ffa500; /* Oranssi tausta */
+  padding: 10px;
+  color: #fff; /* Valkoinen teksti */
+  margin-top: 20px; /* Lisätään välistystä yläpuolelle */
+  margin-bottom: 10px; /* Lisätään välistystä alapuolelle */
+}
+
+/* Tekstitiedot */
+p {
+  margin-bottom: 10px; /* Lisätään välistystä alapuolelle */
+}
+
+/* Tittelin tyyli */
+.title {
+  color: #fff; /* Valkoinen teksti */
+}
+
+
+/* Tämä tyyli venyttää "contact-info" -divin koko sivun levyiseksi */
+.yhteystiedot {
+  background-color: #333; /* Voit muuttaa taustaväriä tarpeen mukaan */
+  color: #fff; /* Valkoinen teksti */
+  width: 100%; /* Leveys 100%, jolloin se peittää sivun leveyden */
+  padding: 20px; /* Lisäämme sisätilaa elementille */
+  text-align: center; /* Keskitetään teksti vaakasuunnassa */
+}
